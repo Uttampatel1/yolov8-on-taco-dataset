@@ -1,0 +1,13 @@
+Validation Metrics Summary:
+
+Precision: 0.7148
+Recall: 0.5649
+mAP50: 0.6353
+mAP50-95: 0.4413
+Fitness: 0.4607
+
+Speed Metrics (ms):
+preprocess: 61.63
+inference: 2732.23
+loss: 0.82
+postprocess: 1108.05

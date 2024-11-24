@@ -1,0 +1,20 @@
+Complete Validation Results:
+
+Main Metrics:
+metrics/precision(B): 0.7147862711520119
+metrics/recall(B): 0.5648749928029206
+metrics/mAP50(B): 0.6353136908388275
+metrics/mAP50-95(B): 0.441349281527175
+fitness: 0.4607457224583403
+
+Speed Metrics (ms):
+preprocess: 61.63
+inference: 2732.23
+loss: 0.82
+postprocess: 1108.05
+
+Task: detect
+
+Class Mapping:
+Class 0: 5
+Class 1: 12

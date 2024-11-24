@@ -1,0 +1,8 @@
+Per-class Performance:
+
+Class 0 (5):
+mAP50: 0.4985
+
+Class 1 (12):
+mAP50: 0.3842
+
