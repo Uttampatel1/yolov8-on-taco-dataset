@@ -1,0 +1,8 @@
+ultralytics>=8.0.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.4.0
+PyYAML>=5.4.0
+pycocotools>=2.0.0
+split-folders>=0.5.0
+tqdm>=4.62.0

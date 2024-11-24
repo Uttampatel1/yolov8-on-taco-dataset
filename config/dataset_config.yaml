@@ -1,0 +1,31 @@
+# dataset_config.yaml
+
+# Paths
+annotation_file: '/path/to/annotations.json'
+data_dir: '/path/to/source/images'
+output_dir: '/path/to/output'
+
+# Processing settings
+img_size: 640  # Target image size (optional)
+keep_tmp: false  # Keep temporary files
+
+# Dataset split ratios
+split_ratio:
+  - 0.8  # train
+  - 0.1  # validation
+  - 0.1  # test
+
+# Category mapping (COCO category ID to new label ID)
+label_transfer:
+  5: 0   # category_5 -> label_0
+  12: 1  # category_12 -> label_1
+  15: 2  # category_15 -> label_2
+
+## -----------------------------------------
+
+path: /path/to/dataset
+train: train/images
+val: val/images
+test: test/images
+nc: 2  # number of classes
+names: {0: 'class1', 1: 'class2'}

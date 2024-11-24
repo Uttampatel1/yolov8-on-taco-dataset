@@ -1,0 +1,5 @@
+model_name: yolov8s
+img_size: 320
+batch_size: 16
+epochs: 100
+conf_thresh: 0.25
